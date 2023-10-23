@@ -6,12 +6,19 @@ document.getElementById("start").addEventListener('click', function(){
     console.log(userNum, pcNum);
 
     let msg = "AHAHAH Ho vinto di nuovo!!"
+    let msgB = "Oh no ho perso"
     //CONTROLLO NUM >
     if (userNum > pcNum){
-        msg = "Questa volta hai vinto tu!!"
+        msgB = "Questa volta ho vinto io!!"
+        msg = "Tutta fortuna..."
     } else if (userNum === pcNum){
         msg = "Pareggio... Giochiamo di nuovo?"
+        msgB = msg
     }
     console.log(msg);
+    document.getElementById("msg").innerHTML = msg
+    document.getElementById("msgB").innerHTML = msgB
+    document.getElementById("user-num").innerHTML = userNum
+    document.getElementById("pc-num").innerHTML = pcNum
 })
 

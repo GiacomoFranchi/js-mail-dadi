@@ -15,6 +15,7 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 ## Output
 Generare un messaggio con scritto:
-    - Questa volta hai vinto tu!! (in caso di vittoria dell'utente)
-    - AHAHAH Ho vinto di nuovo!! (in caso di sconfitta dell'utente)
+    - Questa volta ho vinto io!! (in caso di vittoria dell'utente)
+    - AHAHAH Ho vinto di nuovo!! (in caso di sconfitta del pc)
     - Pareggio... Giochiamo di nuovo? (in caso di pareggio)
+Mostrare a schermo i risultati del lancio dei dadi

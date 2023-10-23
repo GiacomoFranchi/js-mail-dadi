@@ -3,16 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>JS-Dadi</title>
 </head>
 <body>
-    <section class="container">
-        <div class="pc-space"></div>
-        <div class="btn-space"> 
-            <button id="start">Giochiamo!</button>
+    <section class="page">
+        <h1>
+            <i class="fa-solid fa-bolt-lightning"></i>
+            DADI
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </h1>
+        <div class="container">
+            <div class="card" style="width: 30%;">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" class="card-img-top" alt="img user">
+                <div class="card-body">
+                    <p id="msgB" class="card-text">. . .</p>
+                </div>
+            </div>
+            <div class="btn-space"> 
+                <p id="user-num"></p>
+                <button id="start">Giochiamo!</button>
+                <p id="pc-num"></p>
+            </div>
+            <div class="card" style="width: 30%;">
+                <img src="https://www.otaquest.com/wp-content/uploads/2021/03/Title-Image.jpg" class="card-img-top" alt="img pc">
+                <div class="card-body">
+                    <p id="msg" class="card-text">Pronto a giocare?</p>
+                </div>
+            </div>
         </div>
-        <div class="user-space"></div>
     </section>
 
     <!--JS script-->
